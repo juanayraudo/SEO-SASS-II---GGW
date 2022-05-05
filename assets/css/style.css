@@ -17,13 +17,46 @@
 }
 
 .nav-item {
-  padding-left: 40px;
-  padding-right: 40px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 .quienesSomos {
   background-image: url(../img/fondoquienes\ somos_Mesa\ de\ trabajo\ 1.png);
   background-size: cover;
+}
+
+.title {
+  color: transparent;
+  background: #666666;
+  -webkit-background-clip: text;
+  background-clip: text;
+  text-shadow: 0px 3px 3px rgba(255, 255, 255, 0.5);
+}
+
+.parrafoQuienes {
+  font-size: 1.2rem;
+}
+
+.imgmain {
+  background-color: darkolivegreen;
+  text-decoration: none;
+  border-radius: 10px;
+  border: 0;
+  margin: 20px;
+  padding: 10px;
+  cursor: pointer;
+  color: white;
+}
+
+.imgmain:hover {
+  background-color: #b8d68a;
+  -webkit-box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.35);
+          box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.35);
+  color: black;
+  -webkit-transition: 1s;
+  transition: 1s;
+  opacity: 80%;
 }
 
 .tarjetaprod {
