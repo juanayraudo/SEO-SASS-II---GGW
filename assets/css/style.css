@@ -1,11 +1,35 @@
+.bgheader {
+  background-color: whitesmoke;
+}
+
+.navcontainer {
+  background-color: #698037;
+  border: 0;
+}
+
+.navbar {
+  background-color: #698037;
+  border: 0;
+}
+
+.navbar-nav {
+  text-align: center;
+}
+
+.nav-item {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.quienesSomos {
+  background-image: url(../img/fondoquienes\ somos_Mesa\ de\ trabajo\ 1.png);
+  background-size: cover;
+}
+
 .tarjetaprod {
   background-color: #c4a235;
   border-radius: 20px;
   color: #f1f1f1;
-}
-
-.tarjetaprod .tarjetatitulo {
-  font-size: 2rem;
 }
 
 .tarjetaprod .imgkit {
@@ -13,7 +37,7 @@
 }
 
 .tarjetaprod p {
-  font-size: 0.8rem;
+  font-size: 1rem;
 }
 
 .tarjetaprod h3 {
@@ -23,7 +47,6 @@
 .tarjetaprod .btn2 {
   background-color: darkolivegreen;
   padding: 10px;
-  width: 30%;
   border-radius: 10px;
   border: 0;
   cursor: pointer;
@@ -34,6 +57,7 @@
   background-color: #b8d68a;
   -webkit-transition: 1s;
   transition: 1s;
+  color: black;
 }
 
 .tarjetaprod:hover {
@@ -43,5 +67,10 @@
   transition: 0.5s;
   -webkit-box-shadow: 5px 5px 15px -6px #000000;
           box-shadow: 5px 5px 15px -6px #000000;
+}
+
+* {
+  margin: 0;
+  padding: 0;
 }
 /*# sourceMappingURL=style.css.map */

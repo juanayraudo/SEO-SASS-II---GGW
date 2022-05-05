@@ -1,2 +1,10 @@
 @import "_variables";
-@import "_tarjetas"
+@import "_header";
+@import "_navbar";
+@import "_main";
+@import "_tarjetas";
+
+*{
+    margin: 0;
+    padding: 0;
+}
