@@ -22,7 +22,7 @@
 }
 
 .quienesSomos {
-  background-image: url(../img/fondoquienes\ somos_Mesa\ de\ trabajo\ 1.png);
+  background-image: url("../img/fondoquienes somos_Mesa de trabajo 1.png");
   background-size: cover;
 }
 
@@ -100,6 +100,24 @@
   transition: 0.5s;
   -webkit-box-shadow: 5px 5px 15px -6px #000000;
           box-shadow: 5px 5px 15px -6px #000000;
+}
+
+.divhr {
+  height: 7px;
+  border-radius: 30px;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0)), color-stop(28%, #5da63e), color-stop(83%, #83bb6b), to(rgba(255, 255, 255, 0)));
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #5da63e 28%, #83bb6b 83%, rgba(255, 255, 255, 0) 100%);
+  max-width: 80%;
+}
+
+.cuponDesc {
+  width: 20%;
+  margin: 15px;
+}
+
+.verificadoSeguridad {
+  width: 20%;
+  margin: 20px;
 }
 
 * {

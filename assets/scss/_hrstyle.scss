@@ -1,5 +1,6 @@
 .divhr {
     height: 7px;
     border-radius: 30px;
-    background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(93, 166, 62, 1) 28%, rgba(131, 187, 107, 1) 83%, rgba(255, 255, 255, 0) 100%);
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #5da63e 28%, #83bb6b 83%, rgba(255, 255, 255, 0) 100%);
+    max-width: 80%;
 }
