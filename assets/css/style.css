@@ -103,21 +103,35 @@
 }
 
 .divhr {
-  height: 7px;
-  border-radius: 30px;
+  height: 8px;
+  border-radius: 20px;
   background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0)), color-stop(28%, #5da63e), color-stop(83%, #83bb6b), to(rgba(255, 255, 255, 0)));
   background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #5da63e 28%, #83bb6b 83%, rgba(255, 255, 255, 0) 100%);
-  max-width: 80%;
 }
 
 .cuponDesc {
-  width: 20%;
+  width: 45%;
   margin: 15px;
 }
 
 .verificadoSeguridad {
-  width: 20%;
+  width: 40%;
   margin: 20px;
+}
+
+.enviosPaquete {
+  width: 50%;
+  margin: 15px;
+}
+
+.imgAvanzar {
+  font-size: 40px;
+}
+
+.bgFooter {
+  background-color: #698037;
+  background: -webkit-gradient(linear, left bottom, left top, from(#5d722f), to(rgba(34, 193, 195, 0)));
+  background: linear-gradient(0deg, #5d722f 0%, rgba(34, 193, 195, 0) 100%);
 }
 
 * {
