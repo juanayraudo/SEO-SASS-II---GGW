@@ -16,12 +16,12 @@
     }
 
     .btn2{
-        background-color: $colorBotones;
-        padding: 10px;
-        border-radius: 10px;
-        border: 0;
-        cursor: pointer;
-        color: $colorLetra;
+        padding: map-get($boton , padding );
+        border: map-get($boton , border );
+        border-radius: map-get($boton , border-radius );
+        cursor: map-get($boton , cursor );
+    
+        @include propiedadesBoton ($colorPrimario , true);
 
         &:hover{
             background-color: $colorhoverBoton;

@@ -1,0 +1,15 @@
+@mixin propiedadesBoton ($bg-color , $ligth) {
+    background-color: $bg-color;
+    @if $ligth == true {
+        color: white;
+    }
+    @else {
+        color: black;
+    }
+    color: $ligth;
+}
+
+@mixin propiedadesIconos ($size , $color) {
+    font-size: $size;
+    color: $color;
+}

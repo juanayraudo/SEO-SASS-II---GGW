@@ -3,4 +3,39 @@
     background: linear-gradient(0deg, rgb(93, 114, 47) 0%, rgba(34,193,195,0) 100%);
 }
 
+.btnfooter{
+    height: 50px;
+    padding: map-get($boton , padding );
+    border: map-get($boton , border );
+    border-radius: map-get($boton , border-radius );
+    cursor: map-get($boton , cursor );
+    
+    @include propiedadesBoton ($colorSecundario , true);
 
+    &:hover{
+        background-color: rgb(216, 220, 88);
+        transition: 1s;
+        color: black;
+    }
+}
+
+.infodesign{
+    background-color: $colorSecundario;
+    color: black;
+    opacity: 75%;
+}
+
+.iconosRedes{
+    @include propiedadesIconos (40px , $colorLetra)
+}
+
+.titleFooter{
+    color: $colorLetra;
+    font-size: 1.5rem;
+}
+
+.footerParrafo{
+    color: $colorLetra;
+    font-size: 1.2rem;
+    padding: 5px;
+}

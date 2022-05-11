@@ -78,12 +78,13 @@
 }
 
 .tarjetaprod .btn2 {
-  background-color: darkolivegreen;
   padding: 10px;
-  border-radius: 10px;
   border: 0;
+  border-radius: 10px;
   cursor: pointer;
-  color: #f1f1f1;
+  background-color: #698037;
+  color: white;
+  color: true;
 }
 
 .tarjetaprod .btn2:hover {
@@ -132,6 +133,46 @@
   background-color: #698037;
   background: -webkit-gradient(linear, left bottom, left top, from(#5d722f), to(rgba(34, 193, 195, 0)));
   background: linear-gradient(0deg, #5d722f 0%, rgba(34, 193, 195, 0) 100%);
+}
+
+.btnfooter {
+  height: 50px;
+  padding: 10px;
+  border: 0;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: #c4a235;
+  color: white;
+  color: true;
+}
+
+.btnfooter:hover {
+  background-color: #d8dc58;
+  -webkit-transition: 1s;
+  transition: 1s;
+  color: black;
+}
+
+.infodesign {
+  background-color: #c4a235;
+  color: black;
+  opacity: 75%;
+}
+
+.iconosRedes {
+  font-size: 40px;
+  color: #f1f1f1;
+}
+
+.titleFooter {
+  color: #f1f1f1;
+  font-size: 1.5rem;
+}
+
+.footerParrafo {
+  color: #f1f1f1;
+  font-size: 1.2rem;
+  padding: 5px;
 }
 
 * {

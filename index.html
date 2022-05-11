@@ -226,53 +226,75 @@
   <!----------------------------------------------------------------FOOTER------------------------------------------------------------------------>
 
   <footer>
-    <div class="bgFooter d-flex flex-column text-center">
+    <div class="bgFooter d-flex flex-wrap text-center justify-content-evenly">
 
-      <div>
-        <img class="logoFooter w-50 pt-5" src="./assets/img/LOGO GREEN GOLD-03.png">
+      <div class="col-lg-3 mt-5">
+        <img class="logoFooter col-8" src="./assets/img/LOGO GREEN GOLD-03.png">
       </div>
 
-      <div>
-        <p class="titleFooter">REDES</p>
-        <div class="iconosRedes">
+      <div class="col-lg-3 text-center mt-5">
+
+        <p class="titleFooter pt-5">REDES</p>
+
+        <div class="d-flex flex-row justify-content-evenly">
+        <div class="iconosRedes p-1">
           <i class="fa-brands fa-instagram"></i>
+        </div>
+        <div class="iconosRedes p-1">
           <i class="fa-brands fa-facebook-square"></i>
         </div>
-      </div>
+        </div>
 
-      <div>
+      </div>
+      
+      <div class="col-lg-2 mt-5">
+        <div class="mt-5 p-3">
+          <button class="btnfooter p-2">AL COMIENZO</button>
+        </div>
+      </div> 
+
+      <div class="col-lg-12 d-felx felx-column text-center">
+
         <div>
-          <p class="titleFooter mt-3 p-3">Contactos</p>
+          <p class="titleFooter p-3">CONTACTOS</p>
+        </div> 
+
+        <div class=" d-flex flex-wrap justify-content-evenly">
+
+          <div>
+            <div class="iconosRedes">
+              <i class="fa-regular fa-compass"></i>
+            </div>
+            <p class="footerParrafo">Luis de Tejeda 3975</p>
+          </div>
+
+          <div>
+            <div class="iconosRedes">
+              <i class="fa-regular fa-envelope"></i>
+            </div>
+            <div>
+              <p class="footerParrafo">greengoldgrowcompany@gmail.com</p>
+            </div>
+          </div>  
+          
+          <div>
+            <div class="iconosRedes">
+              <i class="fa-brands fa-whatsapp"></i>
+            </div>
+            <p class="footerParrafo">+5493385437160</p>
+          </div>
+
         </div>
 
-        <div class="iconosRedes">
-          <i class="fa-regular fa-envelope"></i>
-        </div>
-        <p class="footerParrafo">greengoldgrowcompany@gmail.com</p>
-
-        <div class="iconosRedes">
-          <i class="fa-regular fa-compass"></i>
-        </div>
-        <p class="footerParrafo">Luis de Tejeda 3975</p>
-
-        <div class="iconosRedes">
-          <i class="fa-brands fa-whatsapp"></i>
-        </div>
-        <p class="footerParrafo">+5493385437160</p>
-
-      </div>
-
-      <div class="btnfooter p-5">
-        <button class="p-2">AL COMIENZO</button>
-      </div>
-
-      <div class="infodesign d-flex justify-content-center align-content-center p-2">
-        <p class="m-0">Design By @jayraudo</p>
       </div>
 
     </div>
    
   </footer>
+  
+  <div class="infodesign d-flex justify-content-center align-content-center p-2">
+    <p class="m-0">Design By @jayraudo</p>
+  </div>
 
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
