@@ -13,7 +13,7 @@
     @include propiedadesBoton ($colorSecundario , true);
 
     &:hover{
-        background-color: rgb(216, 220, 88);
+        background-color: rgb(242, 244, 167);
         transition: 1s;
         color: black;
     }
@@ -26,7 +26,7 @@
 }
 
 .iconosRedes{
-    @include propiedadesIconos (40px , $colorLetra)
+    @include propiedadesIconos (40px , true)
 }
 
 .titleFooter{

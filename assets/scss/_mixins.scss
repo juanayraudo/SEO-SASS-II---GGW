@@ -11,5 +11,11 @@
 
 @mixin propiedadesIconos ($size , $color) {
     font-size: $size;
+    @if $color == true {
+        color: white;
+    }
+    @else {
+        color: black;
+    }
     color: $color;
 }

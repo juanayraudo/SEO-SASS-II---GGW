@@ -1,3 +1,10 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
 .bgheader {
   background-color: whitesmoke;
 }
@@ -77,7 +84,7 @@
   font-size: 2rem;
 }
 
-.tarjetaprod .btn2 {
+.tarjetaprod .btn2, .tarjetaprod .btnContacto {
   padding: 10px;
   border: 0;
   border-radius: 10px;
@@ -87,7 +94,7 @@
   color: true;
 }
 
-.tarjetaprod .btn2:hover {
+.tarjetaprod .btn2:hover, .tarjetaprod .btnContacto:hover {
   background-color: #b8d68a;
   -webkit-transition: 1s;
   transition: 1s;
@@ -126,7 +133,9 @@
 }
 
 .imgAvanzar {
-  font-size: 40px;
+  font-size: 50px;
+  color: black;
+  color: flase;
 }
 
 .bgFooter {
@@ -147,7 +156,7 @@
 }
 
 .btnfooter:hover {
-  background-color: #d8dc58;
+  background-color: #f2f4a7;
   -webkit-transition: 1s;
   transition: 1s;
   color: black;
@@ -161,7 +170,8 @@
 
 .iconosRedes {
   font-size: 40px;
-  color: #f1f1f1;
+  color: white;
+  color: true;
 }
 
 .titleFooter {
@@ -173,10 +183,5 @@
   color: #f1f1f1;
   font-size: 1.2rem;
   padding: 5px;
-}
-
-* {
-  margin: 0;
-  padding: 0;
 }
 /*# sourceMappingURL=style.css.map */

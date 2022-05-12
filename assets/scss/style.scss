@@ -1,3 +1,4 @@
+@import "_config";
 @import "_variables";
 @import "_mixins";
 @import "_header";
@@ -8,8 +9,4 @@
 @import "_envios";
 @import "_footer";
 
-
-*{
-    margin: 0;
-    padding: 0;
-}
+@import "_contactos";

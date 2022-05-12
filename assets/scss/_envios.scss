@@ -14,5 +14,5 @@
 }
 
 .imgAvanzar {
-    font-size: 40px;
+    @include propiedadesIconos (50px , flase)
 }
