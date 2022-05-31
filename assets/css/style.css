@@ -1,40 +1,49 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box; }
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
 
 .bgheader {
-  background-color: whitesmoke; }
+  background-color: whitesmoke;
+}
 
 .navcontainer {
   background-color: #698037;
-  border: 0; }
+  border: 0;
+}
 
 .navbar {
   background-color: #698037;
-  border: 0; }
+  border: 0;
+}
 
 .navbar-nav {
-  text-align: center; }
+  text-align: center;
+}
 
 .nav-item {
   padding-left: 30px;
-  padding-right: 30px; }
+  padding-right: 30px;
+}
 
 .quienesSomos {
   background-image: url("../img/fondoquienes somos_Mesa de trabajo 1.png");
-  background-size: cover; }
+  background-size: cover;
+}
 
 .title {
   color: transparent;
   background: #666666;
   -webkit-background-clip: text;
-  -moz-background-clip: text;
   background-clip: text;
-  text-shadow: 0px 3px 3px rgba(255, 255, 255, 0.5); }
+  text-shadow: 0px 3px 3px rgba(255, 255, 255, 0.5);
+}
 
 .parrafoQuienes {
-  font-size: 1.2rem; }
+  font-size: 1.2rem;
+}
 
 .imgmain {
   background-color: darkolivegreen;
@@ -44,66 +53,96 @@
   margin: 20px;
   padding: 10px;
   cursor: pointer;
-  color: white; }
-  .imgmain:hover {
-    background-color: #b8d68a;
-    box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.35);
-    color: black;
-    transition: 1s;
-    opacity: 80%; }
+  color: white;
+}
+
+.imgmain:hover {
+  background-color: #b8d68a;
+  -webkit-box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.35);
+          box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.35);
+  color: black;
+  -webkit-transition: 1s;
+  transition: 1s;
+  opacity: 80%;
+}
 
 .tarjetaprod {
   background-color: #c4a235;
   border-radius: 20px;
-  color: #f1f1f1; }
-  .tarjetaprod .imgkit {
-    border-radius: 20px; }
-  .tarjetaprod p {
-    font-size: 1rem; }
-  .tarjetaprod h3 {
-    font-size: 2rem; }
-  .tarjetaprod .btn2, .tarjetaprod .btnContacto {
-    padding: 10px;
-    border: 0;
-    border-radius: 10px;
-    cursor: pointer;
-    background-color: #698037;
-    color: white;
-    color: true; }
-    .tarjetaprod .btn2:hover, .tarjetaprod .btnContacto:hover {
-      background-color: #b8d68a;
-      transition: 1s;
-      color: black; }
-  .tarjetaprod:hover {
-    transform: scale(1.05);
-    transition: 0.5s;
-    box-shadow: 5px 5px 15px -6px #000000; }
+  color: #f1f1f1;
+}
+
+.tarjetaprod .imgkit {
+  border-radius: 20px;
+}
+
+.tarjetaprod p {
+  font-size: 1rem;
+}
+
+.tarjetaprod h3 {
+  font-size: 2rem;
+}
+
+.tarjetaprod .btn2, .tarjetaprod .btnContacto {
+  padding: 10px;
+  border: 0;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: #698037;
+  color: white;
+  color: true;
+}
+
+.tarjetaprod .btn2:hover, .tarjetaprod .btnContacto:hover {
+  background-color: #b8d68a;
+  -webkit-transition: 1s;
+  transition: 1s;
+  color: black;
+}
+
+.tarjetaprod:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  -webkit-box-shadow: 5px 5px 15px -6px #000000;
+          box-shadow: 5px 5px 15px -6px #000000;
+}
 
 .divhr {
   height: 8px;
   border-radius: 20px;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #5da63e 28%, #83bb6b 83%, rgba(255, 255, 255, 0) 100%); }
+  background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0)), color-stop(28%, #5da63e), color-stop(83%, #83bb6b), to(rgba(255, 255, 255, 0)));
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #5da63e 28%, #83bb6b 83%, rgba(255, 255, 255, 0) 100%);
+}
 
 .cuponDesc {
   width: 45%;
-  margin: 15px; }
+  margin: 15px;
+}
 
 .verificadoSeguridad {
   width: 40%;
-  margin: 20px; }
+  margin: 20px;
+}
 
 .enviosPaquete {
   width: 50%;
-  margin: 15px; }
+  margin: 15px;
+}
 
 .imgAvanzar {
   font-size: 50px;
   color: black;
-  color: flase; }
+  color: flase;
+}
 
 .bgFooter {
   background-color: #698037;
-  background: linear-gradient(0deg, #5d722f 0%, rgba(34, 193, 195, 0) 100%); }
+  background: -webkit-gradient(linear, left bottom, left top, from(#5d722f), to(rgba(34, 193, 195, 0)));
+  background: linear-gradient(0deg, #5d722f 0%, rgba(34, 193, 195, 0) 100%);
+}
 
 .btnfooter {
   height: 50px;
@@ -113,27 +152,57 @@
   cursor: pointer;
   background-color: #c4a235;
   color: white;
-  color: true; }
-  .btnfooter:hover {
-    background-color: #f2f4a7;
-    transition: 1s;
-    color: black; }
+  color: true;
+}
+
+.btnfooter:hover {
+  background-color: #f2f4a7;
+  -webkit-transition: 1s;
+  transition: 1s;
+  color: black;
+}
 
 .infodesign {
   background-color: #c4a235;
   color: black;
-  opacity: 75%; }
+  opacity: 75%;
+}
 
 .iconosRedes {
   font-size: 40px;
   color: white;
-  color: true; }
+  color: true;
+}
 
 .titleFooter {
   color: #f1f1f1;
-  font-size: 1.5rem; }
+  font-size: 1.5rem;
+}
 
 .footerParrafo {
   color: #f1f1f1;
   font-size: 1.2rem;
-  padding: 5px; }
+  padding: 5px;
+}
+
+h1, h2 {
+  color: transparent;
+  background: #666666;
+  -webkit-background-clip: text;
+  background-clip: text;
+  text-shadow: 0px 3px 3px rgba(255, 255, 255, 0.5);
+}
+
+.imgtipsgg img {
+  border-radius: 20px;
+}
+
+.imgtipsgg img:hover {
+  -webkit-transform: scale(1.02);
+          transform: scale(1.02);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  -webkit-box-shadow: 5px 5px 15px -6px #000000;
+          box-shadow: 5px 5px 15px -6px #000000;
+}
+/*# sourceMappingURL=style.css.map */
