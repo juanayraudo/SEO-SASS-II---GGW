@@ -87,9 +87,36 @@
   </header>
 
 
+ <!-----------------------------------------------------------CAROUSEL------------------------------------------------------------------->
+
+
+  <div id="carouselExampleFade" class="carousel slide carousel-fade m-5" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="../assets/img/carouselPromo/sliderimg2-02.jpg" class="d-block w-100" style="border-radius: 50px" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="../assets/img/carouselPromo/sliderimg3-03.jpg" class="d-block w-100" style="border-radius: 50px" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="../assets/img/carouselPromo/sliderimg1_Mesa de trabajo 1.jpg" class="d-block w-100" style="border-radius: 50px" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+  </div>
+  </div>
+
+
   <!-----------------------------------------------------------MAIN PROMOCIONES------------------------------------------------------------------->
 
-  <div id="container">
+  <div id="container" class="h-auto mb-5">
     <div id="toggleContainer">
         <label>Carousel</label>
         <div id="toggle">
@@ -100,7 +127,7 @@
         </div>
     </div>
     <div id="galleryView">
-        <div id="galleryContainer">
+        <div id="galleryContainer" class="flex-wrap">
             <div id="leftView"></div>
             <button id="navLeft" class="navBtns"><i class="fas fa-arrow-left fa-3x"></i></button>
             <div class="d-flex justify-content-center" id="mainView">
