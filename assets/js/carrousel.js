@@ -43,12 +43,6 @@ let imgObject = [
   "../assets/img/img4feeding.jpg",
   "../assets/img/img5sustrato.jpg",
   "../assets/img/img4feeding.jpg",
-  // "https://placeimg.com/450/450/tech",
-  // "https://picsum.photos/id/1/450/450",
-  // "https://picsum.photos/id/8/450/450",
-  // "https://picsum.photos/id/12/450/450",
-  // "https://picsum.photos/id/15/450/450",
-  // "https://picsum.photos/id/5/450/450",
 ];
 
 let imgPrice=[
@@ -86,7 +80,6 @@ let nextImg = 1;
 function loadGallery() {
   
   let mainView = document.getElementById("mainView");
-//   mainView.style.background = "url(" + imgObject[mainImg] + ")";
     mainView.innerHTML=`<div class="card card-carrousel" style="width: 18rem; border-radius: 40px">
     <div class="d-flex justify-content-center">
     <img class="card-img-top mt-2" style="width: 85%; border-radius:35px" src="${imgObject[mainImg]}" alt="Card image cap">
@@ -101,7 +94,6 @@ function loadGallery() {
   </div>`
 
   let leftView = document.getElementById("leftView");
-  // leftView.style.background = "url(" + imgObject[prevImg] + ")";
   leftView.innerHTML=`<div class="card card-carrousel" style="width: 18rem; border-radius: 40px">
     <div class="d-flex justify-content-center">
     <img class="card-img-top mt-2" style="width: 85%; border-radius:35px" src="${imgObject[prevImg]}" alt="Card image cap">
@@ -116,7 +108,6 @@ function loadGallery() {
   </div>`
   
   let rightView = document.getElementById("rightView");
-  // rightView.style.background = "url(" + imgObject[nextImg] + ")";
   rightView.innerHTML=`<div class="card card-carrousel" style="width: 18rem; border-radius: 40px">
   <div class="d-flex justify-content-center">
   <img class="card-img-top mt-2" style="width: 85%; border-radius:35px" src="${imgObject[nextImg]}" alt="Card image cap">
@@ -129,10 +120,6 @@ function loadGallery() {
     </div>
   </div>
 </div>`
-  
-  // let linkTag = document.getElementById("linkTag")
-  // linkTag.href = imgObject[mainImg];
-
 };
 
 function scrollRight() {
