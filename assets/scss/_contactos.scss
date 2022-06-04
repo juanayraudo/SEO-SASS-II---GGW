@@ -1,3 +1,26 @@
-.btnContacto {
-    @extend .btn2;
+.formulario {
+    border-radius: 20px;
+    background-color: $colorSecundario;
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, inset 6px 4px 41px -30px rgba(0,0,0,0); 
+box-shadow: 0px 10px 13px -7px #000000, inset 6px 4px 41px -30px rgba(0,0,0,0);
+}
+
+.mapaubicacion {
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, inset 6px 4px 41px -30px rgba(0,0,0,0); 
+box-shadow: 0px 10px 13px -7px #000000, inset 6px 4px 41px -30px rgba(0,0,0,0);
+}
+
+.btnContacto{
+    padding: map-get($boton , padding );
+    border: map-get($boton , border );
+    border-radius: map-get($boton , border-radius );
+    cursor: map-get($boton , cursor );
+
+    @include propiedadesBoton ($colorPrimario , true);
+
+    &:hover{
+        background-color: $colorhoverBoton;
+        transition: 1s;
+        color: black;
+    }
 }

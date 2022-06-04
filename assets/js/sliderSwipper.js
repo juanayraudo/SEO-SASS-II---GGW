@@ -13,8 +13,8 @@ var swiper = new Swiper('.swiper', {
 });
 
 function getDirection() {
-    var windowWidth = window.innerWidth;
-    var direction = window.innerWidth <= 760 ? 'vertical' : 'horizontal';
+    var windowWidth = window.innerWidth; 
+    var direction = window.innerWidth <= 760 ? 'horizontal' : 'horizontal';
 
     return direction;
 }
